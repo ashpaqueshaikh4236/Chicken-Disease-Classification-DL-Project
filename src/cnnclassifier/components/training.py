@@ -59,9 +59,16 @@ class Training:
             **dataflow_kwargs
         )
 
+    # @staticmethod
+    # def save_model(path: Path, model: tf.keras.Model):
+    #     model.save(path)
+
     @staticmethod
     def save_model(path: Path, model: tf.keras.Model):
-        model.save(path)
+        model.save(path.with_suffix('.keras'))
+
+
+    
 
     def train(self, callback_list: list):
         # Define the steps per epoch based on the number of samples
