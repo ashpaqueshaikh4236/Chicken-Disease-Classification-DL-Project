@@ -2,9 +2,7 @@ from cnnclassifier.constants import *
 import os
 from pathlib import Path
 from cnnclassifier.utils.common import read_yaml, create_directories
-from cnnclassifier.entity.config_entity import (DataIngestionConfig,
-                                                PrepareBaseModelConfig,
-                                                PrepareCallbacksConfig)
+from cnnclassifier.entity.config_entity import (DataIngestionConfig,PrepareBaseModelConfig,PrepareCallbacksConfig)
 
 
 
@@ -53,14 +51,6 @@ class ConfigurationManager:
 
         return prepare_base_model_config
     
-
-class ConfigurationManager:
-    def __init__(self, config_filepath=CONFIG_FILE_PATH, params_filepath=PARAMS_FILE_PATH):
-        self.config = read_yaml(config_filepath)
-        self.params = read_yaml(params_filepath)
-        
-        create_directories([self.config.artifacts_root])
-
     
     def get_prepare_callback_config(self) -> PrepareCallbacksConfig:
         config = self.config.prepare_callbacks
