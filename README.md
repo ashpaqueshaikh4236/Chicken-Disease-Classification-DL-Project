@@ -20,16 +20,16 @@
 Clone the repository
 
 ```bash
-https://github.com/entbappy/Chicken-Disease-Classification--Project
+https://github.com/ashpaqueshaikh4236/Chicken-Disease-Classification-DL-Project.git
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -n cnncls python=3.8 -y
+conda create -p venv python=3.12 -y
 ```
 
 ```bash
-conda activate cnncls
+conda activate venv
 ```
 
 
@@ -42,11 +42,6 @@ pip install -r requirements.txt
 ```bash
 # Finally run the following command
 python app.py
-```
-
-Now,
-```bash
-open up you local host and port
 ```
 
 
