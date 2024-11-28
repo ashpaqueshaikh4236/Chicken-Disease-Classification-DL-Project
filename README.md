@@ -1,4 +1,4 @@
-# End-to-end-Machine-Learning-Project-with-MLflow
+# Chicken-Disease-Classification-DL-Project
 
 
 ## Workflows
