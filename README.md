@@ -30,7 +30,7 @@ conda create -p cnncls  python=3.12 -y
 ```
 
 ```bash
-conda activate mlproj
+conda activate cnncls
 ```
 
 
