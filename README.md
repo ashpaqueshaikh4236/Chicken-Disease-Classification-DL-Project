@@ -26,11 +26,11 @@ https://github.com/ashpaqueshaikh4236/Chicken-Disease-Classification-DL-Project.
 ### STEP 01- Create a conda environment after opening the repository
 
 ```bash
-conda create -p cnncls  python=3.12 -y
+conda create -p venv  python=3.12 -y
 ```
 
 ```bash
-conda activate cnncls
+conda activate venv
 ```
 
 
